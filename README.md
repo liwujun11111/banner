@@ -1,1 +1,4 @@
 # banner
+该例子主要使用viewpager实现首页bannner效果，对代码进行一些封装使用特别方便。
+1.主要在针对调用viewPager notifyDatachanged界面不刷新做了进一步优化。
+2.做了图片以及数据本地缓存，以变网络异常或者无网络时也能正常显示。
